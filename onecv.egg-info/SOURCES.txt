@@ -1,0 +1,12 @@
+setup.py
+bin/onecv-moderncv
+bin/onecv-website
+onecv/__init__.py
+onecv/tex.py
+onecv/utils.py
+onecv/website.py
+onecv.egg-info/PKG-INFO
+onecv.egg-info/SOURCES.txt
+onecv.egg-info/dependency_links.txt
+onecv.egg-info/not-zip-safe
+onecv.egg-info/top_level.txt

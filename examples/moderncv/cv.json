@@ -1,0 +1,402 @@
+{
+   "Personal":
+      [
+         {"Name": "Jeremy Kun"},
+         {"Thesis advisor": "Lev Reyzin"},
+         {"Research summary": "I am a theoretical computer scientist with broad interests, including complexity theory, graph theory and network science, learning theory, cryptography, combinatorics, and geometry. My research to date focuses on theoretical and applied graph theory."},
+         {"Email": "jkun2 /at/ uic.edu"}, 
+         {"Mailing Address": "Mathematics Department. University of Illinois at Chicago. 851 S Morgan St. Chicago, IL 60607-7045"},
+         {"Webpage": "http://math.uic.edu/~jkun2"}
+      ],
+   "Education": 
+      [
+         {
+          "when": "2011 - Present", 
+          "institution": "University of Illinois at Chicago", 
+          "degree": "Ph.D", 
+          "subject": "Mathematics", 
+          "comments": "Expected 2016.", 
+          "importance": 1
+         },
+         {
+          "when": "2007 - 2011", 
+          "institution": "California Polytechnic State University", 
+          "degree": "B.S.", 
+          "subject": "Mathematics, Minor in Computer Science",
+          "comments": "Magna Cum Laude.", 
+          "importance": 1
+         },
+         {
+          "when": "2011", 
+          "institution": "Budapest Semesters in Mathematics", 
+          "comments": "Graduated with honors.", 
+          "importance": 2
+         }
+      ],
+   "Publications":
+      [ 
+         {
+            "title": "A Boosting Approach to Learning Graph Representations",
+            "authors": "Rajmonda Caceres, Kevin Carter, Jeremy Kun",
+            "venue": "SIAM International Conference on Data Mining Workshop on Mining Networks and Graphs", 
+            "when": "2014",
+            "link": "http://arxiv.org/abs/1401.3258",
+            "abstract": "Learning the right graph representation from noisy, multisource data has garnered significant interest in recent years. A central tenet of this problem is relational learning. Here the objective is to incorporate the partial information each data source gives us in a way that captures the true underlying relationships. To address this challenge, we present a general, boosting-inspired framework for combining weak evidence of entity associations into a robust similarity metric. We explore the extent to which different quality measurements yield graph representations that are suitable for community detection. We then present empirical results on both synthetic and real datasets demonstrating the utility of this framework. Our framework leads to suitable global graph representations from quality measurements local to each edge. Finally, we discuss future extensions and theoretical considerations of learning useful graph representations from weak feedback in general application settings.",
+            "importance": 1,
+            "bibtex": "@inproceedings{CCK14, \ntitle = {A Boosting Approach to Learning Graph Representations}, \nauthor = {R. Caceres and K. Carter and J. Kun}, \n year = {2014}, \n booktitle = {Proc. SIAM Int. Conf. Data Mining, Workshop on Mining Networks and Graphs}, \n note = {To appear}}"
+         },
+         {
+            "title": "Anti-Coordination Games and Stable Graph Colorings",
+            "authors": "Jeremy Kun, Brian Powers, Lev Reyzin",
+            "venue": "Syposium on Algorithmic Game Theory", 
+            "when": "2013",
+            "link": "http://arxiv.org/abs/1308.3258",
+            "abstract": "Motivated by understanding non-strict and strict pure strategy equilibria in network anti-coordination games, we define notions of stable and, respectively, strictly stable colorings in graphs. We characterize the cases when such colorings exist and when the decision problem is NP-hard. These correspond to finding pure strategy equilibria in the anti-coordination games, whose price of anarchy we also analyze. We further consider the directed case, a generalization that captures both coordination and anti-coordination. We prove the decision problem for non-strict equilibria in directed graphs is NP-hard. Our notions also have multiple connections to other combinatorial questions, and our results resolve some open problems in these areas, most notably the complexity of the strictly unfriendly partition problem.",
+            "importance": 1,
+            "bibtex": "@inproceedings{KPR13, \n author = {Jeremy Kun and Brian Powers and Lev Reyzin}, \n title = {Anti-coordination Games and Stable Graph Colorings}, \n booktitle = {SAGT}, \n year = {2013}, \n pages = {122-133}, \n ee = {http://dx.doi.org/10.1007/978-3-642-41392-6_11}\n}"
+         },
+         {
+            "title": "On Coloring Resilient Graphs",
+            "authors": "Jeremy Kun, Lev Reyzin",
+            "when": 2014,
+            "venue": "Mathematical Foundations of Computer Science",
+            "link": "http://arxiv.org/abs/1402.4376",
+            "abstract": "We introduce a new notion of resilience for constraint satisfaction problems, with the goal of more precisely determining the boundary between NP-hardness and the existence of efficient algorithms for resilient instances. In particular, we study $r$-resiliently $k$-colorable graphs, which are those $k$-colorable graphs that remain $k$-colorable even after the addition of any $r$ new edges. We prove lower bounds on the NP-hardness of coloring resiliently colorable graphs, and provide an algorithm that colors sufficiently resilient graphs. We also analyze the corresponding notion of resilience for $k$-SAT. This notion of resilience suggests an array of open questions for graph coloring and other combinatorial problems.",
+            "importance": 1,
+            "bibtex": "@inproceedings{KunR14, author = {Jeremy Kun and Lev Reyzin}, title = {On Coloring Resilient Graphs}, booktitle = {Mathematical Foundations of Computer Science 2014 - 39th International Symposium, {MFCS} 2014, Budapest, Hungary, August 25-29, 2014. Proceedings, Part {II}}, year = {2014}, pages = {517--528}, doi = {10.1007/978-3-662-44465-8_44},}"
+         }
+      ],
+   "Preprints":
+      [ 
+         {
+            "title": "Approximation Lower Bounds and a new IP for Neighbor Aided Network Installation",
+            "authors": "Alexander Gutfraind, Jeremy Kun, Ádám Lelkes, Lev Reyzin",
+            "importance": 1
+         },
+         {
+            "title": "On the Computational Complexity of MapReduce",
+            "authors": "Benjamin Fish, Jeremy Kun, Ádám Lelkes, Lev Reyzin, György Turán",
+            "link": "http://arxiv.org/abs/1410.0245",
+            "importance": 1
+         },
+         {
+            "title": "Locally Boosted Graph Aggregation for Community Detection",
+            "authors": "Rajmonda Caceres, Kevin Carter, Jeremy Kun",
+            "link": "http://arxiv.org/abs/1405.3210",
+            "importance": 2
+         }
+      ],
+   "Talks":
+      [
+         {
+            "title": "On Resiliently Colorable Graphs",
+            "venue": "Computer Science Seminar, University of Illinois at Chicago",
+            "when": "2014",
+            "importance": 1,
+            "label": "Research talk"
+         },
+         {
+            "title": "Resilient Coloring and Other Combinatorial Problems",
+            "venue": "Midwest Theory Day. Purdue University",
+            "when": "2014",
+            "importance": 1,
+            "label": "Research talk"
+         },
+         {
+            "title": "Anti-Coordination Games and Stable Graph Colorings",
+            "venue": "Computer Science Seminar, University of Illinois at Chicago",
+            "when": "2013",
+            "importance": 1,
+            "label": "Research talk"
+         },
+         {
+            "title": "How to Combine Graphs",
+            "venue": "Chicago Area SIAM Student Conference, Northwestern University",
+            "when": "2014",
+            "importance": 2,
+            "label": "Graduate student talk"
+         },
+         {
+            "title": "Stable Graph Colorings, and Why You Should Care about NP",
+            "venue": "Graduate Student Colloquium, University of Illinois at Chicago",
+            "when": "2013",
+            "importance": 2,
+            "label": "Graduate student talk"
+         },
+         {
+            "title": "A Brief Overview of Persistent Homology and its Applications",
+            "venue": "Chicago Area SIAM Student Conference, University of Illinois at Chicago",
+            "when": "2013",
+            "importance": 2,
+            "label": "Graduate student talk"
+         },
+         {
+            "title": "Hybrid Images and Fourier Analysis",
+            "venue": "Undergraduate Math Club, University of Illinois at Chicago",
+            "when": "2014",
+            "importance": 3,
+            "label": "Undergrad talk"
+         },
+         {
+            "title": "Classic Nintendo Games are NP-Hard",
+            "venue": "Undergraduate Math Club, University of Illinois at Chicago",
+            "when": "2013",
+            "importance": 3,
+            "label": "Undergrad talk"
+         },
+         {
+            "title": "PageRank and the Billion-Dollar Eigenvector",
+            "venue": "University of Illinois at Chicago Undergraduate Math Club",
+            "when": "2012",
+            "importance": 3,
+            "label": "Undergrad talk"
+         },
+         {
+            "title": "Eigenfaces: Linear Algebra for Facial Recognition",
+            "venue": "University of Illinois at Chicago Undergraduate Math Club",
+            "when": "2011",
+            "importance": 3,
+            "label": "Undergrad talk"
+         },
+         {
+            "title": "Elliptic Curves, Projective Geometry, and Python",
+            "venue": "Stanford Pre-Collegiate Studies",
+            "when": "2014",
+            "importance": 3,
+            "label": "High school talk"
+         },
+         {
+            "title": "Guest lectures to high school students",
+            "venue": "Various locations",
+            "when": "2011 - Present",
+            "importance": 3,
+            "label": "High school talk"
+         }
+      ],
+   "Professional Programs":
+      [
+         {
+            "title": "Ph.D Student Intern",
+            "organization": "MIT Lincoln Labs",
+            "type": "Research internship",
+            "when": "Summer 2013",
+            "comments": "Research on machine learning in large graphs.",
+            "importance": 1
+         }, 
+         {
+            "title": "Ph.D Student Intern",
+            "organization": "Lawrence Livermore National Laboratory",
+            "type": "Research internship",
+            "when": "Summer 2012",
+            "comments": "Data mining research in wind energy and plasma physics.",
+            "importance": 1
+         }, 
+         {
+            "title": "Network Science Week",
+            "organization": "American Mathematical Society Mathematics Research Community",
+            "type": "Summer school",
+            "when": "June 2014",
+            "comments": "Received mentoring, engaged in research to attack open problems, and developed new collaborations.",
+            "importance": 1
+         }, 
+         {
+            "title": "Software Developer Intern",
+            "organization": "Amazon.com",
+            "type": "Software internship",
+            "when": "Summer 2009",
+            "comments": "Worked on the message-passing framework in a million-line service-oriented C++ architecture which regulated inventory in all of Amazon's warehouses.",
+            "importance": 2
+         } 
+      ],
+   "Work Experience":
+      [ 
+         {
+            "title": "Graduate Research Assistant",
+            "organization": "MIT Lincoln Laboratory",
+            "type": "Part time research assistantship",
+            "when": "2013 - 2014",
+            "comments": "Research on graph representation learning, data mining on large networks. Proved theorems, designed algorithms, ran experiments, and wrote technical research papers.",
+            "importance": 1
+         }, 
+         {
+            "title": "Graduate Teaching Assistant",
+            "organization": "University of Illinois at Chicago",
+            "type": "Part time teaching assistantship",
+            "when": "2011 - 2013",
+            "comments": "Taught calculus and introductory computer science.",
+            "importance": 1
+         }, 
+         {
+            "title": "Junior Developer",
+            "organization": "CreateSpace On-Demand Publishing",
+            "type": "Software internship",
+            "when": "2008 - 2009",
+            "comments": "Designed and developed a new accounting gateway infrastructure for a growing tech start-up, including writing thousands of lines of Java and SQL. Completed a technical writing training program.",
+            "importance": 2
+         }, 
+         {
+            "title": "Camp Counselor",
+            "organization": "Adventure Day Camp",
+            "type": "Summer job",
+            "when": "Summer 2005 - 2007, Summer 2010",
+            "comments": "Child care ages 4-11.",
+            "importance": 4
+         }
+      ],
+   "Service":
+      [
+         {
+            "title": "Organizer",
+            "event": "Graduate Student Theoretical Computer Science Seminar",
+            "organization": "University of Illinois at Chicago",
+            "when": "2013 - Present",
+            "importance": 2
+         },
+         {
+            "title": "Publicity Co-Chair",
+            "event": "ISAIM 2014",
+            "organization": "International Symposium on Artificial Intelligence and Mathematics",
+            "when": "2014",
+            "importance": 1
+         },
+         {
+            "title": "Instructor",
+            "event": "Website Workshop",
+            "organization": "Association for Women in Mathematics, University of Illinois at Chicago",
+            "when": "2013",
+            "importance": 2
+         }
+      ],
+   "Teaching":
+      [
+         {
+            "course": "Calculus 1",
+            "institution": "University of Illinois at Chicago",
+            "when": "Fall 2011, Fall 2013",
+            "type": "TA",
+            "importance": 2 
+         },
+         {
+            "course": "Intro Comp Sci",
+            "institution": "University of Illinois at Chicago",
+            "when": "Spring 2012, Fall 2012, Spring 2013",
+            "type": "TA",
+            "comments": "Wrote a grading robot for all labs and projects.",
+            "importance": 1 
+         }
+      ],
+   "Awards":
+      [
+         {
+            "title": "Dean's Scholar Award",
+            "granter": "University of Illinois at Chicago",
+            "description": "To provide the most distinguished, advanced-level graduate students with a period of time dedicated solely to the completion of their programs",
+            "when": "2014",
+            "importance": 1
+         },
+         {
+            "title": "Charles J. Hanks Excellence in Mathematics Award",
+            "granter": "California Polytechnic State University",
+            "description": "Demonstrated excellence and outstanding ability",
+            "when": "2011",
+            "importance": 2
+         },
+         {
+            "title": "Robert P. Balles Mathematics Award",
+            "granter": "California Polytechnic State University",
+            "description": "Highest GPA in mathematics coursework after three years",
+            "when": "2010",
+            "importance": 2
+         },
+         {
+            "title": "3rd Place in a Collegiate Regional Programming Contest",
+            "granter": "Association for Computing Machinery",
+            "description": "Three-person team programming tasks",
+            "when": "2009",
+            "importance": 3
+         },
+         {
+            "title": "Eagle Scout Award",
+            "granter": "Boy Scouts of America",
+            "description": "Troop 234 of Moraga, CA",
+            "when": "2007",
+            "importance": 2
+         },
+         {
+            "title": "Black Belt, First Degree",
+            "granter": "Kang's Tae Kwon Do Academy",
+            "description": "Walnut Creek, CA",
+            "when": "2007",
+            "importance": 4
+         }
+      ],
+   "Programming":
+      [
+         {
+            "name": "Portfolio",
+            "title": "Github Repository",
+            "link": "https://github.com/j2kun/",
+            "importance": 1
+         },
+         {
+            "name": "Top Language",
+            "title": "Python",
+            "importance": 2
+         },
+         {
+            "name": "Competent Languages",
+            "title": "Python, Java, C, C++, Haskell, Racket, HTML/CSS, Mathematica",
+            "importance": 2
+         },
+         {
+            "name": "Familiar Languages",
+            "title": "Javascript, Perl, Bash, PHP, SQL",
+            "importance": 2
+         },
+         {
+            "name": "IDEs",
+            "title": "Vim, Eclipse",
+            "importance": 3
+         },
+         {
+            "name": "Version Control",
+            "title": "Git, Subversion",
+            "importance": 3
+         }
+      ],
+   "Contract Work":
+      [
+         {
+            "title": "QED Math Symposium",
+            "link": "http://qed.wpcp.org/",
+            "organization": "Chicago Public Schools",
+            "type": "Webmaster",
+            "when": "2012 - Present",
+            "importance": 2
+         }, 
+         {
+            "title": "Math Tweets",
+            "organization": "No Starch Press",
+            "type": "Technical Reviewer",
+            "when": "2014",
+            "importance": 2
+         }, 
+         {
+            "title": "Math and Science Adventures in Python",
+            "organization": "No Starch Press",
+            "type": "Technical Reviewer",
+            "when": "2014",
+            "importance": 2
+         } 
+      ],
+   "Other":
+      [
+         {
+            "name": "Blog",
+            "title": "Math Intersect Programming",
+            "link": "http://jeremykun.com",
+            "comments": "In-depth presentation of technical topics, with full implementations in code. As of September 2014: 189 published posts, 2000 word average post length, 1.7 million page views since June 2011.",
+            "importance": 1
+         }
+      ]
+}
