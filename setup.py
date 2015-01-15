@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(name='onecv',
       version='0.2',
@@ -7,7 +7,8 @@ setup(name='onecv',
       author='Jeremy Kun',
       author_email='jkun2@uic.edu',
       license='MIT',
-      packages=['onecv'],
+      packages=find_packages(),
       scripts=['bin/onecv-moderncv',
                'bin/onecv-website'],
+      include_package_data=True,
       zip_safe=False)

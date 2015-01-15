@@ -274,6 +274,7 @@
             "institution": "University of Illinois at Chicago",
             "when": "Fall 2011, Fall 2013",
             "type": "TA",
+            "comments": "Led discussion sections twice weekly.",
             "importance": 2 
          },
          {
@@ -290,42 +291,42 @@
          {
             "title": "Dean's Scholar Award",
             "granter": "University of Illinois at Chicago",
-            "description": "To provide the most distinguished, advanced-level graduate students with a period of time dedicated solely to the completion of their programs",
+            "comments": "To provide the most distinguished, advanced-level graduate students with a period of time dedicated solely to the completion of their programs",
             "when": "2014",
             "importance": 1
          },
          {
             "title": "Charles J. Hanks Excellence in Mathematics Award",
             "granter": "California Polytechnic State University",
-            "description": "Demonstrated excellence and outstanding ability",
+            "comments": "Demonstrated excellence and outstanding ability",
             "when": "2011",
             "importance": 2
          },
          {
             "title": "Robert P. Balles Mathematics Award",
             "granter": "California Polytechnic State University",
-            "description": "Highest GPA in mathematics coursework after three years",
+            "comments": "Highest GPA in mathematics coursework after three years",
             "when": "2010",
             "importance": 2
          },
          {
             "title": "3rd Place in a Collegiate Regional Programming Contest",
             "granter": "Association for Computing Machinery",
-            "description": "Three-person team programming tasks",
+            "comments": "Three-person team programming tasks",
             "when": "2009",
             "importance": 3
          },
          {
             "title": "Eagle Scout Award",
             "granter": "Boy Scouts of America",
-            "description": "Troop 234 of Moraga, CA",
+            "comments": "Troop 234 of Moraga, CA",
             "when": "2007",
             "importance": 2
          },
          {
             "title": "Black Belt, First Degree",
             "granter": "Kang's Tae Kwon Do Academy",
-            "description": "Walnut Creek, CA",
+            "comments": "Walnut Creek, CA",
             "when": "2007",
             "importance": 4
          }

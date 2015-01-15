@@ -1,0 +1,3 @@
+include onecv/templates/html/*.html
+include onecv/templates/html/*.css
+include onecv/templates/tex/*.tex

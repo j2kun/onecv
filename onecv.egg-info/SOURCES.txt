@@ -1,3 +1,4 @@
+MANIFEST.in
 setup.py
 bin/onecv-moderncv
 bin/onecv-website
@@ -10,3 +11,17 @@ onecv.egg-info/SOURCES.txt
 onecv.egg-info/dependency_links.txt
 onecv.egg-info/not-zip-safe
 onecv.egg-info/top_level.txt
+onecv/templates/__init__.py
+onecv/templates/html/__init__.py
+onecv/templates/html/item-template.html
+onecv/templates/html/section-template.html
+onecv/templates/html/style.css
+onecv/templates/html/templates.py
+onecv/templates/html/website-template.html
+onecv/templates/tex/__init__.py
+onecv/templates/tex/example-sections.tex
+onecv/templates/tex/item-template.tex
+onecv/templates/tex/line-item-template.tex
+onecv/templates/tex/moderncv-template.tex
+onecv/templates/tex/section-template.tex
+onecv/templates/tex/templates.py
