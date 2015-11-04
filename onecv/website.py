@@ -13,6 +13,7 @@ websiteHTML = resource_string(__name__,
       join('templates','html','website-template.html')).decode("utf-8")
 websiteCSS = resource_string(__name__,
       join('templates','html','style.css')).decode("utf-8")
+DEFAULT_TEMPLATE_KEY = 'genericItem'
 
 
 def small(s):
@@ -36,7 +37,11 @@ def makeItem(item, sectionKey):
 
       return result
 
-   lhs, rhs = tmpl.itemTemplates[sectionKey]
+   if sectionKey not in tmpl.itemTemplates:
+      lhs, rhs = tmpl.itemTemplates[DEFAULT_TEMPLATE_KEY]
+   else:
+      lhs, rhs = tmpl.itemTemplates[sectionKey]
+
    if 'link' in item and 'title' in item:
       item['title'] = link(item['title'], item['link'])
 

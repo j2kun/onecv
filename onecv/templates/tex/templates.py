@@ -113,5 +113,6 @@ itemTemplates = {
    "Teaching": teachingItem,
    "Awards": awardsItem,
    "Programming": genericItem,
+   "Posters": genericDateItem,
    "Other": genericItem
 }
