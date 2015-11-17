@@ -1,0 +1,25 @@
+#!/usr/local/opt/python3/bin/python3.5
+
+import json
+import sys
+import os.path
+from onecv import tex
+
+
+if not(3 <= len(sys.argv) <= 4):
+   print("Usage: onecv-moderncv cv.json cv.tex [importance]")
+   sys.exit(1)
+
+importanceThreshold = int(sys.argv[3]) if len(sys.argv) == 4 else 3
+
+sections = None
+if os.path.isfile('sections.txt'):
+   with open('sections.txt', 'r') as infile:
+      sections = [x.strip() for x in infile]
+
+with open(sys.argv[1], 'r') as cvfile:
+   jsonObj = json.load(cvfile)
+
+with open(sys.argv[2], 'w') as outfile:
+   outfile.write(tex.makeTex(jsonObj, sections=sections,
+      importanceThreshold=importanceThreshold))

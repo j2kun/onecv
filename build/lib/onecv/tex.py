@@ -14,6 +14,7 @@ sectionTEX = resource_string(__name__,
 cvTEX = resource_string(__name__,
       join('templates','tex','moderncv-template.tex')).decode("utf-8")
 
+DEFAULT_TEMPLATE_KEY = 'genericItem'
 linkTEX = r'\href{{{url}}}{{\textcolor{{MidnightBlue}}{{\underline{{\textbf{{{text}}}}}}}}}'
 
 def link(text, href):
@@ -34,7 +35,11 @@ def makeItem(item, sectionKey):
    if 'comments' in item:
       item['comments'] = item['comments'].strip('.')
 
-   lhs, rhs = tmpl.itemTemplates[sectionKey]
+   if sectionKey not in tmpl.itemTemplates:
+      lhs, rhs = tmpl.itemTemplates[DEFAULT_TEMPLATE_KEY]
+   else:
+      lhs, rhs = tmpl.itemTemplates[sectionKey]
+
    if 'link' in item and 'title' in item:
       item['title'] = link(item['title'], item['link'])
 

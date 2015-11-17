@@ -20,7 +20,7 @@ preprintItem = (
 
 talksItem = (
    "{when}",
-   "{title}.\n{venue}. {label}."
+   "{title}\n{venue}. {label}."
 )
 
 workExperienceItem = (
@@ -50,12 +50,12 @@ contractWorkItem = (
 
 genericItem = (
    "{name}",
-   "{title}.\n{comments}"
+   "{title}\n{comments}"
 )
 
 genericDateItem = (
    "{when}",
-   "{title}.\n{comments}"
+   "{title}\n{comments}"
 )
 
 itemTemplates = {
@@ -70,5 +70,6 @@ itemTemplates = {
    "Teaching": teachingItem,
    "Awards": awardsItem,
    "Programming": genericItem,
+   "Posters": genericDateItem,
    "Other": genericItem
 }

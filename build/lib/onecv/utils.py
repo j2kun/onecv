@@ -10,6 +10,7 @@ defaultSections = [
    'Service',
    'Awards',
    'Teaching',
+   'Posters',
    'Other'
 ]
 
@@ -21,7 +22,6 @@ def maxYear(aString):
 
 def minYear(aString):
    return min(int(x) for x in re.findall(r'\d{4}', str(aString)))
-
 
 def report(missingKey, data):
    stderr.write("Note: missing key %r; skipping...\n" % missingKey)
@@ -39,3 +39,4 @@ def organizeItems(items, threshold):
       items.sort(key=lambda d: int(d['importance']))
 
    return [x for x in items if x['importance'] <= threshold]
+
